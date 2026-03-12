@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xero Degrees Gwalior - Full Menu & Order</title>
+    <link rel="stylesheet" href="1st.css">
+</head>
+<body>
+    <center>
+        <h1 id="cafename">XERO DEGREES</h1>
+        <p id="cafeaddress"><i>City Center, Gwalior</i></p>
+        <hr width="50%">
+    </center>
+    <header>
+        <div id="navbar">
+            <nav>
+                <a class="navbar" href="#pizza-Jar">Pizza in a Jar</a>
+                <a class="navbar" href="#pasta">Pasta (Penne/Spaghetti)</a>
+                <a class="navbar" href="#sandwitches-Nachos">Sandwiches & Nachos</a>
+                <a class="navbar" href="#GarlicBread">Garlic Bread</a>
+                <a class="navbar" href="#Burgers">Burgers</a>
+                <a class="navbar" href="#Fries-sides">Fries & Sides</a>
+            </nav>
+        </div>
+    </header>
+    <section id="food-gallery">
+    <img src="pizza_in_a_jar.png" alt="pizza in a jar">
+    <img src="pasta.png" alt="Pasta">
+    <img src="sandwitch.png" alt="sandwitch">
+    <img src="garlic_bread.png" alt="garlic bread">
+    <img src="burger.png" alt="Burger">
+    <img src="fries.png" alt="Fries">
+</section>
+    <table width="100%" cellpadding="8">
+        <thead>
+            <tr bgcolor="#eeeeee">
+                <th align="left">Category / Item</th>
+                <th align="right">Price</th>
+                <th align="center">Cart</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr class="menusubheading" id="pizza-Jar"><td colspan="3"><b>[ Pizza in a Jar ]</b></td></tr>
+
+            <tr>
+                <td>Veg Pizza Jar</td>
+                <td align="right">₹179</td>
+                <td align="center">
+                    <div class="cart-control">
+                        <button class="add-btn" onclick="addItem(this,179,'Veg Pizza Jar')">ADD</button>
+                        <div class="qty-control" style="display:none;">
+                            <button onclick="decrease(this,179,'Veg Pizza Jar')">-</button>
+                            <span class="qty">1</span>
+                            <button onclick="increase(this,179,'Veg Pizza Jar')">+</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Non-Veg Pizza Jar</td>
+                <td align="right">₹189</td>
+                <td align="center">
+                    <div class="cart-control">
+                        <button class="add-btn" onclick="addItem(this,189,'Non-Veg Pizza Jar')">ADD</button>
+                        <div class="qty-control" style="display:none;">
+                            <button onclick="decrease(this,189,'Non-Veg Pizza Jar')">-</button>
+                            <span class="qty">1</span>
+                            <button onclick="increase(this,189,'Non-Veg Pizza Jar')">+</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Paneer Tikka Pizza Jar</td>
+                <td align="right">₹199</td>
+                <td align="center">
+                    <div class="cart-control">
+                        <button class="add-btn" onclick="addItem(this,199,'Paneer Tikka Pizza Jar')">ADD</button>
+                        <div class="qty-control" style="display:none;">
+                            <button onclick="decrease(this,199,'Paneer Tikka Pizza Jar')">-</button>
+                            <span class="qty">1</span>
+                            <button onclick="increase(this,199,'Paneer Tikka Pizza Jar')">+</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>BBQ Chicken Pizza Jar</td>
+                <td align="right">₹219</td>
+                <td align="center">
+                    <div class="cart-control">
+                        <button class="add-btn" onclick="addItem(this,219,'BBQ Chicken Pizza Jar')">ADD</button>
+                        <div class="qty-control" style="display:none;">
+                            <button onclick="decrease(this,219,'BBQ Chicken Pizza Jar')">-</button>
+                            <span class="qty">1</span>
+                            <button onclick="increase(this,219,'BBQ Chicken Pizza Jar')">+</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Farmhouse Loaded Jar</td>
+                <td align="right">₹209</td>
+                <td align="center">
+                    <div class="cart-control">
+                        <button class="add-btn" onclick="addItem(this,209,'Farmhouse Loaded Jar')">ADD</button>
+                        <div class="qty-control" style="display:none;">
+                            <button onclick="decrease(this,209,'Farmhouse Loaded Jar')">-</button>
+                            <span class="qty">1</span>
+                            <button onclick="increase(this,209,'Farmhouse Loaded Jar')">+</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Cheese Burst Jar</td>
+                <td align="right">₹229</td>
+                <td align="center">
+                    <div class="cart-control">
+                        <button class="add-btn" onclick="addItem(this,229,'Cheese Burst Jar')">ADD</button>
+                        <div class="qty-control" style="display:none;">
+                            <button onclick="decrease(this,229,'Cheese Burst Jar')">-</button>
+                            <span class="qty">1</span>
+                            <button onclick="increase(this,229,'Cheese Burst Jar')">+</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Make it Peri Peri</td>
+                <td align="right">₹59</td>
+                <td align="center">
+                    <div class="cart-control">
+                        <button class="add-btn" onclick="addItem(this,59,'Peri Peri Addon')">ADD</button>
+                        <div class="qty-control" style="display:none;">
+                            <button onclick="decrease(this,59,'Peri Peri Addon')">-</button>
+                            <span class="qty">1</span>
+                            <button onclick="increase(this,59,'Peri Peri Addon')">+</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+           <tr class="menusubheading" id="pasta"><td colspan="3"><hr><b>[ Pasta (Penne / Spaghetti) ]</b></td></tr>
+
+            <tr><td>White Sauce (Barbaresco)</td><td align="right">₹209</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,209,'White Sauce Pasta')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,209,'White Sauce Pasta')">-</button><span class="qty">1</span><button onclick="increase(this,209,'White Sauce Pasta')">+</button></div></div></td></tr>
+            <tr><td>Red Sauce (Arrabiata)</td><td align="right">₹209</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,209,'Red Sauce Pasta')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,209,'Red Sauce Pasta')">-</button><span class="qty">1</span><button onclick="increase(this,209,'Red Sauce Pasta')">+</button></div></div></td></tr>
+            <tr><td>Mix Sauce (Buono Rosa)</td><td align="right">₹219</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,219,'Mix Sauce Pasta')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,219,'Mix Sauce Pasta')">-</button><span class="qty">1</span><button onclick="increase(this,219,'Mix Sauce Pasta')">+</button></div></div></td></tr>
+            <tr><td>Alfredo Baked Veg</td><td align="right">₹259</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,259,'Alfredo Veg')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,259,'Alfredo Veg')">-</button><span class="qty">1</span><button onclick="increase(this,259,'Alfredo Veg')">+</button></div></div></td></tr>
+            <tr><td>Alfredo Baked Non-Veg</td><td align="right">₹279</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,279,'Alfredo NonVeg')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,279,'Alfredo NonVeg')">-</button><span class="qty">1</span><button onclick="increase(this,279,'Alfredo NonVeg')">+</button></div></div></td></tr>
+            <tr><td>Cheesy Mushroom Pasta</td><td align="right">₹239</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,239,'Mushroom Pasta')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,239,'Mushroom Pasta')">-</button><span class="qty">1</span><button onclick="increase(this,239,'Mushroom Pasta')">+</button></div></div></td></tr>
+            <tr><td>Spicy Chicken Pasta</td><td align="right">₹249</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,249,'Chicken Pasta')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,249,'Chicken Pasta')">-</button><span class="qty">1</span><button onclick="increase(this,249,'Chicken Pasta')">+</button></div></div></td></tr>
+            <tr><td>Mexican Corn Pasta</td><td align="right">₹229</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,229,'Corn Pasta')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,229,'Corn Pasta')">-</button><span class="qty">1</span><button onclick="increase(this,229,'Corn Pasta')">+</button></div></div></td></tr>
+
+            <tr class="menusubheading" id="sandwitches-Nachos"><td colspan="3"><hr><b>[ Sandwiches & Nachos ]</b></td></tr>
+
+            <tr><td>Cheese Monger Sandwich</td><td align="right">₹199</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,199,'Cheese Monger Sandwich')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,199,'Cheese Monger Sandwich')">-</button><span class="qty">1</span><button onclick="increase(this,199,'Cheese Monger Sandwich')">+</button></div></div></td></tr>
+            <tr><td>Chicken Idea Sandwich</td><td align="right">₹219</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,219,'Chicken Idea Sandwich')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,219,'Chicken Idea Sandwich')">-</button><span class="qty">1</span><button onclick="increase(this,219,'Chicken Idea Sandwich')">+</button></div></div></td></tr>
+            <tr><td>Veg Club Sandwich</td><td align="right">₹189</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,189,'Veg Club Sandwich')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,189,'Veg Club Sandwich')">-</button><span class="qty">1</span><button onclick="increase(this,189,'Veg Club Sandwich')">+</button></div></div></td></tr>
+            <tr><td>Paneer Grill Sandwich</td><td align="right">₹209</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,209,'Paneer Grill Sandwich')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,209,'Paneer Grill Sandwich')">-</button><span class="qty">1</span><button onclick="increase(this,209,'Paneer Grill Sandwich')">+</button></div></div></td></tr>
+            <tr><td>Mexican Nachos (NEW)</td><td align="right">₹189</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,189,'Mexican Nachos')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,189,'Mexican Nachos')">-</button><span class="qty">1</span><button onclick="increase(this,189,'Mexican Nachos')">+</button></div></div></td></tr>
+            <tr><td>Baked Chicken & Cheese Nachos</td><td align="right">₹239</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,239,'Chicken Nachos')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,239,'Chicken Nachos')">-</button><span class="qty">1</span><button onclick="increase(this,239,'Chicken Nachos')">+</button></div></div></td></tr>
+            <tr><td>Loaded Cheese Nachos</td><td align="right">₹219</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,219,'Cheese Nachos')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,219,'Cheese Nachos')">-</button><span class="qty">1</span><button onclick="increase(this,219,'Cheese Nachos')">+</button></div></div></td></tr>
+
+            <tr class="menusubheading" id="GarlicBread"><td colspan="3"><hr><b>[ Garlic Bread ]</b></td></tr>
+
+            <tr><td>Cheesy Garlic Bread</td><td align="right">₹189</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,189,'Cheesy Garlic Bread')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,189,'Cheesy Garlic Bread')">-</button><span class="qty">1</span><button onclick="increase(this,189,'Cheesy Garlic Bread')">+</button></div></div></td></tr>
+            <tr><td>Exotic Garlic Bread</td><td align="right">₹199</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,199,'Exotic Garlic Bread')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,199,'Exotic Garlic Bread')">-</button><span class="qty">1</span><button onclick="increase(this,199,'Exotic Garlic Bread')">+</button></div></div></td></tr>
+            <tr><td>Chicken & Cheese Garlic Bread</td><td align="right">₹229</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,229,'Chicken Garlic Bread')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,229,'Chicken Garlic Bread')">-</button><span class="qty">1</span><button onclick="increase(this,229,'Chicken Garlic Bread')">+</button></div></div></td></tr>
+            <tr><td>Paneer Garlic Bread</td><td align="right">₹209</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,209,'Paneer Garlic Bread')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,209,'Paneer Garlic Bread')">-</button><span class="qty">1</span><button onclick="increase(this,209,'Paneer Garlic Bread')">+</button></div></div></td></tr>
+            <tr><td>Jalapeno Cheese Bread</td><td align="right">₹199</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,199,'Jalapeno Bread')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,199,'Jalapeno Bread')">-</button><span class="qty">1</span><button onclick="increase(this,199,'Jalapeno Bread')">+</button></div></div></td></tr>
+
+            <tr class="menusubheading" id="Burgers"><td colspan="3"><hr><b>[ Burgers ]</b></td></tr>
+
+            <tr><td>Classic Veg Burger</td><td align="right">₹149</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,149,'Veg Burger')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,149,'Veg Burger')">-</button><span class="qty">1</span><button onclick="increase(this,149,'Veg Burger')">+</button></div></div></td></tr>
+            <tr><td>Cheese Veg Burger</td><td align="right">₹169</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,169,'Cheese Veg Burger')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,169,'Cheese Veg Burger')">-</button><span class="qty">1</span><button onclick="increase(this,169,'Cheese Veg Burger')">+</button></div></div></td></tr>
+            <tr><td>Crispy Chicken Burger</td><td align="right">₹189</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,189,'Crispy Chicken Burger')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,189,'Crispy Chicken Burger')">-</button><span class="qty">1</span><button onclick="increase(this,189,'Crispy Chicken Burger')">+</button></div></div></td></tr>
+            <tr><td>Double Patty Chicken Burger</td><td align="right">₹229</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,229,'Double Patty Burger')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,229,'Double Patty Burger')">-</button><span class="qty">1</span><button onclick="increase(this,229,'Double Patty Burger')">+</button></div></div></td></tr>
+            <tr><td>Paneer Tikka Burger</td><td align="right">₹179</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,179,'Paneer Burger')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,179,'Paneer Burger')">-</button><span class="qty">1</span><button onclick="increase(this,179,'Paneer Burger')">+</button></div></div></td></tr>
+
+           <tr class="menusubheading" id="Fries-sides"><td colspan="3"><hr><b>[ Fries & Sides ]</b></td></tr>
+
+            <tr><td>Classic Salted Fries</td><td align="right">₹99</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,99,'Salted Fries')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,99,'Salted Fries')">-</button><span class="qty">1</span><button onclick="increase(this,99,'Salted Fries')">+</button></div></div></td></tr>
+            <tr><td>Peri Peri Fries</td><td align="right">₹119</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,119,'Peri Peri Fries')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,119,'Peri Peri Fries')">-</button><span class="qty">1</span><button onclick="increase(this,119,'Peri Peri Fries')">+</button></div></div></td></tr>
+            <tr><td>Cheese Loaded Fries</td><td align="right">₹149</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,149,'Cheese Fries')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,149,'Cheese Fries')">-</button><span class="qty">1</span><button onclick="increase(this,149,'Cheese Fries')">+</button></div></div></td></tr>
+            <tr><td>Chicken Popcorn</td><td align="right">₹169</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,169,'Chicken Popcorn')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,169,'Chicken Popcorn')">-</button><span class="qty">1</span><button onclick="increase(this,169,'Chicken Popcorn')">+</button></div></div></td></tr>
+            <tr><td>Mozzarella Sticks</td><td align="right">₹189</td><td align="center"><div class="cart-control"><button class="add-btn" onclick="addItem(this,189,'Mozzarella Sticks')">ADD</button><div class="qty-control" style="display:none;"><button onclick="decrease(this,189,'Mozzarella Sticks')">-</button><span class="qty">1</span><button onclick="increase(this,189,'Mozzarella Sticks')">+</button></div></div></td></tr>
+
+        </tbody>
+    </table>
+
+    <hr>
+    <article id="customer_info">
+    <h2>Your information</h2>
+    <p>please provide the following information</p>
+    <form id="customerForm">
+
+    <fieldset>
+        <legend>Personal Info</legend>
+
+        <p>
+            <label for="firstName">First name:</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Harsh Rajput" required>
+        </p>
+
+        <p>
+            <label for="phone">Phone No:</label>
+            <input type="tel" name="phone" id="phone" placeholder="0000000000" pattern="[0-9]{10}" required>
+        </p>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Dine in or Takeaway</legend>
+
+        <p>
+            <input type="radio" name="wheretoeat" id="dinein" value="Dine In" required>
+            <label for="dinein">Dine In</label>
+        </p>
+
+        <p>
+            <input type="radio" name="wheretoeat" id="takeaway" value="Takeaway">
+            <label for="takeaway">Takeaway</label>
+        </p>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Table Selection</legend>
+
+        <select id="tableNo" required>
+            <option value="">Select Table</option>
+            <option value="1">Table 1</option>
+            <option value="2">Table 2</option>
+            <option value="3">Table 3</option>
+            <option value="4">Table 4</option>
+            <option value="5">Table 5</option>
+            <option value="6">Table 6</option>
+            <option value="7">Table 7</option>
+            <option value="8">Table 8</option>
+            <option value="9">Table 9</option>
+            <option value="10">Table 10</option>
+        </select>
+
+    </fieldset>
+
+</form>
+</article>
+<section id="cart-section">
+        <h2>Your Order Summary</h2>
+        <ul id="cart-items"></ul>
+        <p><strong>Total: ₹<span id="total-price">0</span></strong></p>
+        <button onclick="placeOrder()">Order</button>
+        <button onclick="resetCart()">Reset</button>
+    </section>
+
+    <script src="1st.js"></script>
+
+</body>
+<footer>
+    MADE BY <a href="">CODE CATALYST</a>
+    
+    <br>
+    For any help contact us : <a class="contactus">1234567890</a> or <a id="contactus">abc@gmail.com.</a>
+    <br>
+    thanks for visiting our website
+</footer>
+</html>
